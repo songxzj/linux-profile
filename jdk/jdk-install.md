@@ -2,7 +2,7 @@
 
 ## 安装 jdk
 
-1. 进入目录 /usr/local
+1. 进入目录 `/usr/local`
 
    `cd /usr/local`
 
