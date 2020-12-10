@@ -48,7 +48,7 @@
 
    
 
-6. 在 /usr/local/mysql 目录下创建data目录
+6. 在 `/usr/local/mysql` 目录下创建data目录
 
    `mkdir mysql/data`
 
@@ -58,7 +58,7 @@
 
    `chmod -R 755 /usr/local/mysql`
 
-8. 创建配置文件 /etc/my.cnf
+8. 创建配置文件 `/etc/my.cnf`
 
    ```
          [mysqld]
