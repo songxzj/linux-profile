@@ -20,21 +20,21 @@
 
 ## 二、安装 mysql
 
-1. 进入目录 `/usr/local`;
+1. 进入目录 `/usr/local`
 
    `cd /usr/local`
 
-2. 上传 mysql 压缩包 mysql-5.7.31-linux-glibc2.12-x86_64.tar.gz;
+2. 上传 mysql 压缩包 mysql-5.7.31-linux-glibc2.12-x86_64.tar.gz
 
-3. 解压 mysql-5.7.31-linux-glibc2.12-x86_64.tar.gz;
+3. 解压 mysql-5.7.31-linux-glibc2.12-x86_64.tar.gz
 
    `tar -zxvf mysql-5.7.31-linux-glibc2.12-x86_64.tar.gz`
 
-4. 更名;
+4. 更名
 
    `mv mysql-5.7.31-linux-glibc2.12-x86_64 mysql`
 
-5. 检查 mysql 用户组和用户是否存在，如果没有，则创建;
+5. 检查 mysql 用户组和用户是否存在，如果没有，则创建
 
    `cat /etc/group | grep mysql`
 
@@ -48,17 +48,17 @@
 
    
 
-6. 在 /usr/local/mysql 目录下创建data目录;
+6. 在 /usr/local/mysql 目录下创建data目录
 
    `mkdir mysql/data`
 
-7. 更改 mysql 目录下所属的用户组和用户，以及权限;
+7. 更改 mysql 目录下所属的用户组和用户，以及权限
 
    `chown -R mysql:mysql /usr/local/mysql`
 
    `chmod -R 755 /usr/local/mysql`
 
-8. 创建配置文件 /etc/my.cnf;
+8. 创建配置文件 /etc/my.cnf
 
    ```
          [mysqld]
@@ -79,7 +79,7 @@
          pid-file=/usr/local/mysql/data/mysql.pid
    ```
 
-9. 初始化数据库;
+9. 初始化数据库
 
    `cd mysql/bin`
 
@@ -91,25 +91,25 @@
 
      `yum -y install libaio-devel.x86_64`
 
-10. 保存上一步日志最后的初始化密码 （`root@localhost: 8n7GjpOtYw&y`）;
+10. 保存上一步日志最后的初始化密码 （`root@localhost: 8n7GjpOtYw&y`）
 
-11. 添加软连接;
+11. 添加软连接
 
     `ln -s /usr/local/mysql/support-files/mysql.server /etc/init.d/mysql`
 
     `ln -s /usr/local/mysql/bin/mysql /usr/bin/mysql`
 
-12. 启动mysql服务器;
+12. 启动mysql服务器
 
     `service mysql start`
 
-13. 用第10步保存的密码登录 mysql，并初始化密码;
+13. 用第10步保存的密码登录 mysql，并初始化密码
 
     `mysql -u root -p`
 
     `set password for root@localhost = password('123456');`
 
-14. 开放远程连接;
+14. 开放远程连接
 
     `use mysql;`
 
