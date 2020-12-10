@@ -16,3 +16,5 @@
 
    `systemctl status docker`
 
+5. docker 容器访问宿主机IP可通过 `ifconfig` 查看，linux下一般是 172.17.0.1 , macOS下一般是 192.168.65.1
+
