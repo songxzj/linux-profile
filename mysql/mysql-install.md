@@ -87,7 +87,7 @@
 
    * 如果报错：`./mysqld: error while loading shared libraries: libaio.so.1: cannot open shared object file: No such file or directory`，需要查看并安装libaio包，再重新初始化数据库
 
-     `rmp -qa | grep libaio`
+     `rpm -qa | grep libaio`
 
      `yum -y install libaio-devel.x86_64`
 
