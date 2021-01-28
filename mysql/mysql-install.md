@@ -117,3 +117,5 @@
 
     `flush privileges;`
 
+15. 重新修改密码
+   `set password for 'root'@'%' = password('密码');`
