@@ -119,3 +119,5 @@
 
 15. 重新修改密码
    `set password for 'root'@'%' = password('密码');`
+
+16. yum 安装[https://zhuanlan.zhihu.com/p/136756731]
