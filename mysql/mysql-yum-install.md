@@ -2,7 +2,7 @@
 
 ## 一、 下载 rpm 包
 
-1. 下载 rpm 包，(mysql 查询地址)[https://dev.mysql.com/downloads/repo/yum/]
+1. 下载 rpm 包，[mysql 查询地址](https://dev.mysql.com/downloads/repo/yum/)
 
   `wget https://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm`
 
