@@ -1,5 +1,5 @@
 # mysql 安装
-[yum 安装请跳转][mysql-yum-install.md]
+[yum 安装请跳转](mysql-yum-install.md)
 ## 一、 删除老版本 mysql
 
 1. 执行yum命令，删除 mysql 的lib库
