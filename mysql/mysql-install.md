@@ -1,5 +1,6 @@
 # mysql 安装
 [yum 安装请跳转](mysql-yum-install.md)
+
 [下载地址](https://downloads.mysql.com/archives/community/)
 ## 一、 删除老版本 mysql
 
