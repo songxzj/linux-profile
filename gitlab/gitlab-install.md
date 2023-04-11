@@ -74,7 +74,7 @@
 
    `ps aux | grep gitlab`
 
-4. 杀掉第一个进程（就是带有好多.............的进程，杀掉后，在查看gitlab进程确认一遍，还有没有gitlab的进程
+4. 杀掉第一个进程（就是带有好多.............的进程），杀掉后，在查看gitlab进程确认一遍，还有没有gitlab的进程
    
    ![git-processes](git-processes.jpg)
 
