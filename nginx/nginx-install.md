@@ -2,13 +2,13 @@
 
 ## 安装 nginx
 
-1. 创建 `/etc/yum.repos.d/nginx.repo` 文件
+1. 创建 `/etc/yum.repos.d/nginx.repo` 文件 --- [nginx.repo](nginx.repo)
 
 2. 输入命令`yum list | grep nginx` 可看到前后变化说明导入文件有效
 
-   ![1](F:\linux中间件\nginx\1.jpg)
+   ![before](image/before.jpg)
 
-   ![2](F:\linux中间件\nginx\2.jpg)
+   ![after](image/after.jpg)
 
 3. yum 安装 nginx 
 
