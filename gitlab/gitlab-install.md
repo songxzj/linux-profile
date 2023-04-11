@@ -12,7 +12,7 @@
 
 3. 删除 `/opt/gitlab` 和 `/etc/gitlab`
 
-4. 创建 `/etc/yum.repos.d/gitlab-ce.repo` 文件
+4. 创建 `/etc/yum.repos.d/gitlab-ce.repo` 文件 --- [gitlab-ce.repo](gitlab-ce.repo)
 
 5. 更新 yum 缓存
 
@@ -75,6 +75,8 @@
    `ps aux | grep gitlab`
 
 4. 杀掉第一个进程（就是带有好多.............的进程，杀掉后，在查看gitlab进程确认一遍，还有没有gitlab的进程
+   
+   ![git-processes](git-processes.jpg)
 
    `kill -9 11111`
  
